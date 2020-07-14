@@ -14,7 +14,7 @@ body {
   font-size: 42px;
   cursor: pointer;
   box-shadow: 0 10px 0 #d1483e;
-  user-select: none; /* テキスト選択無効化 */
+  user-select: none; 
 }
 
 #btn:hover {
