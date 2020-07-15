@@ -9,3 +9,7 @@
 ### 2. おみくじ
 
 [JavaScript_02](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_02) (2020/07/14)
+
+### 3. ビンゴ
+
+[JavaScript_03](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_03) (2020/07/15)
