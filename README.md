@@ -19,3 +19,6 @@
 
 ### 5. ストップウォッチ
 [JavaScript_05](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_05) (2020/07/16)
+
+### 6. タイピングゲーム
+[JavaScript_06](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_06) (2020/07/16)
