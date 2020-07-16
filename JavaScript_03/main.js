@@ -2,14 +2,13 @@
 
 {
   function createColumn(col) {
-    const source = []; // 要素が15個の配列を作成
+    const source = [];
     for (let i = 0; i < 15; i++) {
       source[i] = i + 1 + 15 * col; // col => line 21. createColumn(i)
     }
 
     const column = [];
     for (let i = 0; i < 5; i++) {
-      // splice で最初の要素[0]を取得
       column[i] = source.splice(Math.floor(Math.random() * source.length), 1)[0];
     }
     return column;
