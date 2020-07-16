@@ -16,3 +16,6 @@
 
 ### 4. カレンダー
 [JavaScript_04](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_04) (2020/07/15)
+
+### 5. ストップウォッチ
+[JavaScript_05](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_05) (2020/07/16)
