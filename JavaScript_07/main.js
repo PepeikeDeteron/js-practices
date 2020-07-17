@@ -14,7 +14,7 @@
       [arr[random_j], arr[end_i]] = [arr[end_i], arr[random_j]];
     }
     return arr;
-  }
+  };
 
   const quizSet = shuffle([ // c[0] に正解を用意
     {q: '原作のサザエさん未来予想図では、アニメとは違いタラちゃんに妹がいる事になっているがその妹の名前は？', c: ['ヒトデちゃん', 'ホタテちゃん', 'アワビちゃん']},
@@ -39,7 +39,7 @@
 
     while (choices.firstChild) {
       choices.firstChild.remove();
-    }
+    };
 
     /* 正誤判定のためにもとの配列を残したままシャッフルする必要があるので,
     shuffle() には参照ではなく quizSet の配列の値のコピーを渡す
@@ -73,7 +73,7 @@
     }
 
     btn.classList.remove('disabled');
-  }
+  };
 
   setQuiz();
 
