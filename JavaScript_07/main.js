@@ -18,7 +18,7 @@
 
   const quizSet = shuffle([ // c[0] に正解を用意
     {q: '原作のサザエさん未来予想図では、アニメとは違いタラちゃんに妹がいる事になっているがその妹の名前は？', c: ['ヒトデちゃん', 'ホタテちゃん', 'アワビちゃん']},
-    {q: '医学的にストレスという言葉が使われるようになったのは何年前？', c: ['80年前', '200年前', '1000年前']},
+    {q: '医学的にストレスという言葉が使われるようになったのは2020年現在から数えて何年前？', c: ['約80年前', '約200年前', '約30年前']},
     {q: 'アイスクリームの賞味期限はいつまで？', c: ['賞味期限はない', '2年', '5年']},
     {q: '1日2回も収穫できるくらい育つのが早い野菜はどれ？', c: ['アスパラガス', 'キャベツ', 'ねぎ']},
     {q: '救急車を呼ぶか迷っている時に医師や看護師がアドバイスをくれる電話番号はどれ？', c: ['7119', '5119', '114514']},
@@ -31,22 +31,6 @@
   let currentNum = 0;
   let score = 0;
   let isAnswered;
-
-  const checkAnswer = li => {
-    if (isAnswered) {
-      return;
-    }
-    isAnswered = true;
-
-    if (li.textContent === quizSet[currentNum].c[0]) {
-      li.classList.add('correct');
-      score++;
-    } else {
-      li.classList.add('wrong');
-    }
-
-    btn.classList.remove('disabled');
-  }
 
   const setQuiz = () => {
     isAnswered = false;
@@ -73,6 +57,22 @@
     if (currentNum === quizSet.length - 1) { // 最後の問題の場合
       btn.textContent = 'Show Score';
     }
+  }
+
+  const checkAnswer = li => {
+    if (isAnswered) {
+      return;
+    }
+    isAnswered = true;
+
+    if (li.textContent === quizSet[currentNum].c[0]) {
+      li.classList.add('correct');
+      score++;
+    } else {
+      li.classList.add('wrong');
+    }
+
+    btn.classList.remove('disabled');
   }
 
   setQuiz();
