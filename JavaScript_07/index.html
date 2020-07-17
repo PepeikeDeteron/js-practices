@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="/Practices/JavaScript_07/styles.css">
+</head>
+<body>
+  <section class="container">
+    <p id="question"></p>
+    <ul id="choices"></ul>
+    <div id="btn" class="disabled">Next</div>
+
+    <section id="result" class="hidden">
+      <p></p>
+      <!-- href の値を空にするといま開いているページ自身がリンク先になるため、
+        Replay を押すことで今いるページが最初に開いたページと同じ状態になる -->
+      <a href="">Replay?</a>
+    </section>
+  </section>
+
+  <script src="/Practices/JavaScript_07/main.js"></script>
+</body>
+</html>
