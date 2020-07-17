@@ -39,7 +39,7 @@
 
     while (choices.firstChild) {
       choices.firstChild.remove();
-    };
+    }
 
     /* 正誤判定のためにもとの配列を残したままシャッフルする必要があるので,
     shuffle() には参照ではなく quizSet の配列の値のコピーを渡す
@@ -57,7 +57,7 @@
     if (currentNum === quizSet.length - 1) { // 最後の問題の場合
       btn.textContent = 'Show Score';
     }
-  }
+  };
 
   const checkAnswer = li => {
     if (isAnswered) {
