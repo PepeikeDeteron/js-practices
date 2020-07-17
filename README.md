@@ -22,3 +22,6 @@
 
 ### 6. タイピングゲーム
 [JavaScript_06](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_06) (2020/07/16)
+
+### 7. 三択クイズ
+[JavaScript 07](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_07) (2020/07/17)
