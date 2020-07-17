@@ -25,3 +25,6 @@
 
 ### 7. 三択クイズ
 [JavaScript 07](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_07) (2020/07/17)
+
+### 8. スライドショー
+[JavaScript_08](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_08) (2020/07/17)
