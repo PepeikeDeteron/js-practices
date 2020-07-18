@@ -28,3 +28,6 @@
 
 ### 8. スライドショー
 [JavaScript_08](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_08) (2020/07/17)
+
+### 9. スロットマシン
+[JavaScript_09](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_09) (2020/07/18)
