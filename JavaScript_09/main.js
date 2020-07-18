@@ -55,7 +55,7 @@
       }, 50);
     }
 
-    isUnmatched(p1, p2) { // パネルが他の２枚と一致していない場合 => true を返戻
+    isUnmatched(p1, p2) { // パネルが他の２枚と一致していない場合 => true を返す
       return this.img.src !== p1.img.src && this.img.src !== p2.img.src
     }
 
