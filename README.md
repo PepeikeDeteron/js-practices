@@ -31,3 +31,6 @@
 
 ### 9. スロットマシン
 [JavaScript_09](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_09) (2020/07/18)
+
+### 10. 数字タッチゲーム
+[JavaScript_10](https://github.com/Deteikepeperon/JavaScript_Practices/tree/master/JavaScript_10) (2020/07/19)
